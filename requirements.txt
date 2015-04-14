@@ -1,0 +1,2 @@
+pyst==0.6.50
+SQLAlchemy==0.9.9
