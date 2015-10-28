@@ -50,7 +50,7 @@ The referenced context in `sip.conf` must exist in the `extensions.conf` the cod
 exten => _ZXXXXXXXX,1,AGI(celcombiller)
 ```
 
-celcombiller is an AGI, implemented in the file [celcombiller.py](celcombiller.py) and it must run in the virtual environment created in the first section, a file with something like the content bellow should be created in `/var/lib/asterisk/agi-bin` with execution permission.
+Celcombiller is an AGI, implemented in the file [celcombiller.py](celcombiller.py) and it must run in the virtual environment created in the first section, a file with something like the content below should be created in `/var/lib/asterisk/agi-bin` with execution permission.
 
 ```bash
 #!/bin/bash
