@@ -5,7 +5,7 @@
 * sqlalchemy
   Database interface
 
-# Setup developemnt enrironment
+# Setup development enrironment
 
 ```bash
 $ virutalenv venv
