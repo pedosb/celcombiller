@@ -15,7 +15,7 @@ $ pip install --allow-external pyst --allow-unverified pyst -r requirements.txt
 
 ## Database setup
 
-Each SIP user must be inserted in the database of users with a balance. The python code snippet bellow is an example of a insertion of two users.
+Each SIP user must be inserted in the database of users with a balance. The python code snippet below is an example of a insertion of two users.
 
 ```python
 from models import session, User
